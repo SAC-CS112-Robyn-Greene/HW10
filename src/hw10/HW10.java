@@ -26,7 +26,9 @@ public class HW10 {
        
           
             Dice dice = new Dice();
+            Dice dice1=new Dice();
             System.out.println(dice.Throw(1));
+            System.out.println(dice1.Throw(roll));
             //dice.Throw(0);
  //  
     }//main
