@@ -37,9 +37,7 @@ public class Dice {
         int diceTotal = 0;
         for (numberOfThrows = 1; numberOfThrows < Throw; numberOfThrows++) {
             roll = roll + (random.nextInt(6) + 1);
-            System.out.printf("Number is: %d%n ",numberOfThrows);
-            System.out.println();
-        }
+               }
 
         diceTotal = Throw();
         return diceTotal;
