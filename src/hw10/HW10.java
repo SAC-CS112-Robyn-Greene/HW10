@@ -24,13 +24,11 @@ public class HW10 {
         Scanner scan=new Scanner(System.in);
         int roll = 0;
        
-        for (int numberOfThrows=1;numberOfThrows<=dice.Throw();numberOfThrows++)
-        {    
+          
             Dice dice = new Dice();
             System.out.println(dice.Throw(1));
             //dice.Throw(0);
- //
-        }//for   
+ //  
     }//main
 
 }//class
