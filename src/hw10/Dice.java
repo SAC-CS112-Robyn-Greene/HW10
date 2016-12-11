@@ -36,9 +36,9 @@ public class Dice {
         int Throw = 0;
         int numberOfThrows = 0;
         for (tosses = 1; tosses < numberOfThrows;tosses++) {
-            roll = roll + (random.nextInt(6) + 1);
-            
-        }
+            roll = roll + (random.nextInt(6) + 1);            
+        }            
+
 
         numberOfThrows = Throw();
         return numberOfThrows;
