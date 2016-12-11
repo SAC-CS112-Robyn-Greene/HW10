@@ -31,18 +31,17 @@ public class Dice {
     }//die  
 
     //throwing more than one die
-    public int Throw(int numberOfThrows) {
+    public int Throw(int tosses) {
         int roll = 0;
         int Throw = 0;
-        int diceTotal = 0;
-        for (numberOfThrows = 1; numberOfThrows < Throw; numberOfThrows++) {
+        int numberOfThrows = 0;
+        for (tosses = 1; tosses < numberOfThrows;tosses++) {
             roll = roll + (random.nextInt(6) + 1);
-            System.out.printf("Number is: %d%n ",numberOfThrows);
-            System.out.println();
+            
         }
 
-        diceTotal = Throw();
-        return diceTotal;
+        numberOfThrows = Throw();
+        return numberOfThrows;
 
     }//throw
 
