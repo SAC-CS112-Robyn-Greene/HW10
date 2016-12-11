@@ -19,6 +19,7 @@ public class Dice {
        private static int lastRoll = 0;
      static Random random = new Random();
       private int die;
+     
       //Throw() – return a random number between 1-6    
 	 //diceTotal() – Return current dice value  
       //start with throwing one die
@@ -31,7 +32,13 @@ public class Dice {
       
        //throwing more than one die
     public int Throw (int numberOfThrows)
-    {
+    {   
+        int roll=0;
+           int Throw=0;
+        for ( numberOfThrows=0;numberOfThrows<Throw;numberOfThrows++)
+        {
+        roll=roll+ (random.nextInt(6 ) + 1);        
+        }
    int diceTotal=0;
    diceTotal=Throw();
    return diceTotal;
